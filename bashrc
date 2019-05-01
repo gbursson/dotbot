@@ -18,3 +18,4 @@ fi
 
 # Non-git prompt
 PS1="\n[\u@\H \w]\n\$ "
+

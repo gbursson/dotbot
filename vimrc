@@ -23,3 +23,4 @@ set cmdheight=1
 
 
 colorscheme blue
+execute pathogen#infect()
