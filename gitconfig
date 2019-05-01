@@ -2,5 +2,5 @@
 	email = gbursson@gmail.com
   name = Greg D.
 
-[cache]
-  timeout = 1800
+[credential]
+  helper = cache
