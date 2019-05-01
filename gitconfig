@@ -1,3 +1,6 @@
 [user]
 	email = gbursson@gmail.com
-	name = Greg D.
+  name = Greg D.
+
+[cache]
+  timeout = 1800
