@@ -16,7 +16,7 @@ if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
 fi
 
 function checklogs() {
-  sudo journalctl | grep ${1} | tail -n 20
+  sudo journalctl | grep ${1} | tail -n ${2}
 }
 # Non-git prompt
 PS1="\n[\u@\H \w]\n\$ "
