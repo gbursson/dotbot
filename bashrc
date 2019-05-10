@@ -10,7 +10,7 @@ export EDITOR="/usr/bin/vim"
 
 
 alias psc='ps xawf -eo pid,user,cgroup,args'
-alias ls='ls -l --color=auto'
+alias ls='exa -l'
 alias dockerlint='docker run --rm -i hadolint/hadolint < Dockerfile'
 
 
