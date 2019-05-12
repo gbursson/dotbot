@@ -3,4 +3,4 @@
   name = Greg D.
 
 [credential]
-  helper = cache
+	helper = cache --timeout=3600
